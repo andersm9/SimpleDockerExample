@@ -1,5 +1,7 @@
 # SimpleDockerExample
-docker build -t MyfFask:v3 Myflask_Version
+//from directory above SimpleDockerExample
+
+docker build -t MyFask:v3 SimpleDockerExample
 
 docker image ls
 
