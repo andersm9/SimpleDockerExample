@@ -1,7 +1,7 @@
 # SimpleDockerExample
 //from directory above SimpleDockerExample
 
-docker build -t MyFask:v3 SimpleDockerExample
+docker build -t myflask:v3 SimpleDockerExample
 
 docker image ls
 
@@ -9,4 +9,10 @@ docker image ls
 
 docker run -p 8000:5000 <Image_ID>
 
-docker exec -it <image_ID> bash
+
+  // http://localhost:8000/
+  
+docker container ls
+  //provides container ID
+
+docker exec -it <container_ID> bash
